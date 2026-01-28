@@ -508,6 +508,10 @@ VALUES ↓
     height: 36px;
 }
 
+.values__img {
+    width: 50%;
+}
+
 .value {
     margin-top: 2rem;
     margin-right: 2rem;
@@ -742,6 +746,10 @@ TESTIMONIALS ↓
     border-radius: 50%;
     margin: 0 12px;
     transition: all 300ms ease;
+} 
+
+.testimonial__button svg {
+    width: 16px;
 }
 
 .testimonial__para {
@@ -805,6 +813,9 @@ TESTIMONIALS ↓
     --fa: "\f005";
 }
 
+.fa-star {
+    color: rgba(246, 173, 85);
+}
 
 /* 
 
