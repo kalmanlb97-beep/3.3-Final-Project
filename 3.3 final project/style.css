@@ -1216,6 +1216,19 @@ MOBILE RESPONSIVENESS ↓
     justify-content: center;
     margin: 0 auto;
   }
+   .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+        .feature__title {
+        letter-spacing: 0.025em;
+        line-height: 1;
+    }
+    .feature__para {
+        margin-top: 4px;
+        line-height: 2;
+    }
     .section__para {
         font-size: 14px;
     }
@@ -1232,9 +1245,10 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
         align-items: center;
     }
-        .values__list {
-        margin-left: auto;
-        margin-right: auto;
+        .step__description {
+            margin-left:0;
+            margin-top: 16px;
+        }
     }
     .value:nth-of-type(1) {
         margin-right: 0px;
@@ -1246,7 +1260,12 @@ MOBILE RESPONSIVENESS ↓
         .footer__copyright, .footer__socials {
         margin-top: 32px;
     }
-}
+
+    .values__list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 @media(max-width: 640px) {
     .container {
@@ -1280,19 +1299,6 @@ MOBILE RESPONSIVENESS ↓
         font-size: 36px;
         text-align: center;
     }
-        .feature__row {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-        .feature__title {
-        letter-spacing: 0.025em;
-        line-height: 1;
-    }
-    .feature__para {
-        margin-top: 4px;
-        line-height: 2;
-    }
     .section__title {
         font-size: 30px;
     }
@@ -1317,6 +1323,7 @@ MOBILE RESPONSIVENESS ↓
     }
     .start__buttons {
         flex-direction: column;
+        margin-top: 24px;
     }
         .start__button {
         padding: 12px 24px;
